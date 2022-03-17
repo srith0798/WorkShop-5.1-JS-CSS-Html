@@ -8,12 +8,12 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 .left__bar {
   height: 100%;
-  width: 35%;
+  width: 40%;
   position: absolute;
   top: 0;
   left: 0;
@@ -54,8 +54,8 @@ h1 {
   height: 100%;
   position: absolute;
   top: 0;
-  left: 35%;
-  width: 65%;
+  left: 40%;
+  width: 60%;
   transition: transform 0.5s ease-in-out;
 }
 
@@ -64,12 +64,6 @@ h1 {
   background-position: center;
   width: 100%;
   height: 100%;
-}
-
-.action__btns {
-  display: flex;
-  flex-direction: column;
-  height: 450px;
 }
 
 button {
@@ -85,7 +79,7 @@ button:hover {
 
 .bg__layer .action__btns button {
   position: absolute;
-  left: 35%;
+  left: 40%;
   top: 50%;
   z-index: 100;
 }
@@ -95,9 +89,40 @@ button:hover {
 }
 
 .bg__layer .action__btns .down {
-  transform: translateX(-100%);
+  transform: translate(-100%, 200%);
 }
 
 .bg__layer .action__btns .up {
-  transform: translateY(-100%);
+  transform: translateY(-200%);
+}
+
+.random {
+  text-align: center;
+  margin: 0 16px;
+  line-height: 1.3;
+}
+
+.random > h1 {
+  font-size: 20px;
+}
+.random p {
+  font-size: 15px;
+}
+
+@media (min-width: 850px) {
+  .random > h1 {
+    font-size: 25px;
+  }
+  .random p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 350px) {
+  .random > h1 {
+    font-size: 17px;
+  }
+  .random p {
+    font-size: 13px;
+  }
 }

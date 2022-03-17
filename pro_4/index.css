@@ -15,7 +15,8 @@ body {
   border-radius: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
-  width: 300px;
+  width: 320px;
+  margin: 5px 10px;
 }
 
 .title {

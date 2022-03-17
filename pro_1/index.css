@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  filter: blur(0px);
+  filter: blur(30px);
 }
 
 .message {
@@ -27,4 +27,13 @@
   justify-content: center;
   z-index: 1;
   opacity: 1;
+}
+
+@media (max-width: 1050px) {
+  .container {
+    background-position: center;
+  }
+  .message {
+    font-size: 30px;
+  }
 }

@@ -2,7 +2,7 @@
   margin: 0;
 }
 body {
-  background-color: #2b88f0;
+  background-color: #e5e3c9;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,16 +11,18 @@ body {
 }
 
 .tag {
-  background-color: #f0932b;
-  color: #fff;
+  background-color: #d8d2cb;
+  color: #603601;
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 8px;
   margin: 0 16px 0 0;
   font-size: 12px;
+  margin: 16px;
 }
 
 .tag.highlight {
-  background-color: #273375;
+  background-color: #6d8299;
+  color: #e5e3c9;
 }
 
 textarea {
@@ -32,4 +34,14 @@ textarea {
   height: 60px;
   border-radius: 3px;
   padding: 8px 10px;
+}
+
+#tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  padding: 20px;
+  width: 50vw;
 }
