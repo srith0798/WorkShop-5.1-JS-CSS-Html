@@ -13,9 +13,9 @@ function getData() {
     src="https://i.postimg.cc/d06KctmL/the-division-3840x2160-tom-clancy-s-minimal-4k-14522.jpg"
     alt=""
   />`;
-  title.innerHTML = "Lorem ipsum dolor sit amet";
+  title.innerHTML = "Play The Division, experience the Open world of Gaming";
   excerpt.innerHTML =
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,cumque";
+    "Create a team with your friends or play Solo. Enjoy the Enhanced military experience!";
   profile_img.innerHTML = `<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />`;
   userName.innerHTML = `John Doe`;
   date.innerHTML = `Oct 08, 2021`;
