@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg__layer {
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.left__bar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.left__bar > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+.box_1 {
+  background-color: #c1a3a3;
+}
+
+.box_2 {
+  background-color: #99a799;
+}
+
+.box_3 {
+  background-color: #ad8b73;
+}
+
+.box_4 {
+  background-color: #7882a4;
+}
+
+.right__bar {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.right__bar > div {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.action__btns {
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #00b4d8;
+}
+
+.bg__layer .action__btns button {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  z-index: 100;
+}
+
+.icon {
+  width: 25px;
+}
+
+.bg__layer .action__btns .down {
+  transform: translateX(-100%);
+}
+
+.bg__layer .action__btns .up {
+  transform: translateY(-100%);
+}
